@@ -67,6 +67,10 @@ export default class Game {
         this.gameWidth / 2,
         this.gameHeight / 2
       );
+      ctx.fillStyle = "#a86228";
+      ctx.font = "60px Book Antiqua";
+      ctx.textAlign = "center";
+      ctx.fillText("Jump FAIL", 640, 50);
     }
   }
 
